@@ -39,7 +39,7 @@ const About: React.FC = () => {
             <Box sx={{ pb: 3}}>
                 <img 
                     key='Contact' 
-                    src={`./cmodel/Contact2.svg`}
+                    src={`${process.env.PUBLIC_URL}/cmodel/Contact2.svg`}
                     alt={`Contact`} 
                     style={{ 
                         width: '14rem',

@@ -12,14 +12,14 @@ import AvatarGroup from '@mui/material/AvatarGroup';
 
 const cardData = [
   {
-    img: './DentaScreen.png',
+    img: `${process.env.PUBLIC_URL}/DentaScreen.png`,
     title: 'DENTA GeoBI (Demo Version)',
     description:
       'Developed for macro management (chain markets, mass producers, agricultural industries, real estate, organizations, and private companies across various fields).',
     authors: [
-      { name: 'Next.js', avatar: './icons/Next.svg' },
-      { name: 'Node.js', avatar: './icons/Node.svg' },
-      { name: 'Openlayers', avatar: './icons/OpenLayers.svg' },
+      { name: 'Next.js', avatar: `${process.env.PUBLIC_URL}/icons/Next.svg` },
+      { name: 'Node.js', avatar: `${process.env.PUBLIC_URL}/icons/Node.svg` },
+      { name: 'Openlayers', avatar: `${process.env.PUBLIC_URL}/icons/OpenLayers.svg` },
     ],
   },
 ];

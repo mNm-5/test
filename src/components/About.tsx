@@ -41,7 +41,7 @@ const About: React.FC = () => {
         >
             <Box sx={{ flex: '0 0 100%', display: 'flex', justifyContent: 'center', mt: { xs: 2, sm: 0 }, py: { xs: 8, sm: 0 }, pb: { xs: 0, sm: 8} }}>
                 <StyledImage
-                    src="/NR.jpg"
+                     src={`${process.env.PUBLIC_URL}/NR.jpg`}
                     alt="Person"
                 />
             </Box>

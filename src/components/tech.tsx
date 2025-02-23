@@ -108,7 +108,7 @@ const TechnologySection: React.FC = () => {
         const fetchColors = async () => {
             const colorPromises = Object.values(technologies).flatMap(category =>
                 category.map(async (item) => {
-                    const imgSrc = `./icons/${getShortName(item)}.svg`;
+                    const imgSrc = `${process.env.PUBLIC_URL}/icons/${getShortName(item)}.svg`;
                     const color = await getFirstColorFromSVG(imgSrc);
                     return { item, color };
                 })

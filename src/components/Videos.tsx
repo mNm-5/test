@@ -14,35 +14,35 @@ import YouTube from '@mui/icons-material/YouTube';
 
 const cardData = [
   {
-    img: './Geoserver.png',
+    img: `${process.env.PUBLIC_URL}/Geoserver.png`,
     tag: 'YouTube',
     title: 'GeoServer Tutorial',
     lang: 'Persian',
     description:
       'From installation to use of the GeoServer service in interactive web maps and GIS applications.',
-    authors: [{ name: 'Mohammad Nikooravesh', avatar: './NR.jpg', date: 'May 07, 2025' }],
+    authors: [{ name: 'Mohammad Nikooravesh', avatar: `${process.env.PUBLIC_URL}/NR.jpg`, date: 'May 07, 2025' }],
     link: '',
   },
   {
-    img: './Routing.png',
+    img: `${process.env.PUBLIC_URL}/Routing.png`,
     tag: 'YouTube',
     title: 'Basic Routing By DataBase',
     lang: 'Persian',
     description:
       'Practical training in basic routing with various tools in spatial databases. (With a simple Application)',
     authors: [
-      { name: 'Mohammad Nikooravesh', avatar: './NR.jpg', date: 'Mar 18, 2025' },
+      { name: 'Mohammad Nikooravesh', avatar: `${process.env.PUBLIC_URL}/NR.jpg`, date: 'Mar 18, 2025' },
     ],
     link: '',
   },
   {
-    img: './GEEAPIinWebGIS.png',
+    img: `${process.env.PUBLIC_URL}/GEEAPIinWebGIS.png`,
     tag: 'YouTube',
     title: 'GEE API in WebGIS',
     lang: 'Persian',
     description:
       'Harnessing the Power of Google Earth Engine: A Comprehensive Guide to Fetching and Visualizing Environmental Data in WebGIS',
-    authors: [{ name: 'Mohammad Nikooravesh', avatar: './NR.jpg', date: 'July 20, 2025' }],
+    authors: [{ name: 'Mohammad Nikooravesh', avatar: `${process.env.PUBLIC_URL}/NR.jpg`, date: 'July 20, 2025' }],
     link: '',
   }
 ];
