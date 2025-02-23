@@ -1,25 +1,15 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.435d5fe5.chunk.css",
-    "main.js": "/test/static/js/main.4f0c40dd.chunk.js",
-    "main.js.map": "/test/static/js/main.4f0c40dd.chunk.js.map",
-    "runtime-main.js": "/test/static/js/runtime-main.72120847.js",
-    "runtime-main.js.map": "/test/static/js/runtime-main.72120847.js.map",
-    "static/js/2.fc5e6225.chunk.js": "/test/static/js/2.fc5e6225.chunk.js",
-    "static/js/2.fc5e6225.chunk.js.map": "/test/static/js/2.fc5e6225.chunk.js.map",
-    "static/js/3.f81c12db.chunk.js": "/test/static/js/3.f81c12db.chunk.js",
-    "static/js/3.f81c12db.chunk.js.map": "/test/static/js/3.f81c12db.chunk.js.map",
+    "main.js": "/test/static/js/main.df6b640b.js",
+    "static/media/Teams.svg": "/test/static/media/Teams.edd3df9f145ecfbada47fe88f964578b.svg",
+    "static/media/Slack.svg": "/test/static/media/Slack.6f01bc84d40762b2fb5fc06b337d0a1a.svg",
+    "static/media/Skype.svg": "/test/static/media/Skype.bb5d614311d88138fc49231f7426e52b.svg",
+    "static/media/Discord.svg": "/test/static/media/Discord.d53b18f7b11eb1c18e7831032f313a12.svg",
     "index.html": "/test/index.html",
-    "precache-manifest.e5f70dc1c40a2560641bba12815ea9a9.js": "/test/precache-manifest.e5f70dc1c40a2560641bba12815ea9a9.js",
-    "service-worker.js": "/test/service-worker.js",
-    "static/css/main.435d5fe5.chunk.css.map": "/test/static/css/main.435d5fe5.chunk.css.map",
-    "static/js/2.fc5e6225.chunk.js.LICENSE.txt": "/test/static/js/2.fc5e6225.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/test/static/media/logo.06e73328.svg"
+    "static/media/Gmail.svg": "/test/static/media/Gmail.064eff0894a8e932446cfc3188335be6.svg",
+    "main.df6b640b.js.map": "/test/static/js/main.df6b640b.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.72120847.js",
-    "static/js/2.fc5e6225.chunk.js",
-    "static/css/main.435d5fe5.chunk.css",
-    "static/js/main.4f0c40dd.chunk.js"
+    "static/js/main.df6b640b.js"
   ]
 }
